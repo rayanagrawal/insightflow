@@ -1,0 +1,243 @@
+.insightflow2 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.insightflow-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.where-insight-meets {
+  width: 450px;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.objectother-02-icon {
+  width: 410px;
+  position: relative;
+  height: 358px;
+  object-fit: cover;
+}
+.frame-parent9,
+.frame-wrapper,
+.objectother-02 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  padding: 10px;
+}
+.frame-parent9 {
+  gap: 8px;
+}
+.login-to-access {
+  font-weight: 600;
+}
+.login-to-access,
+.user,
+.username {
+  position: relative;
+}
+.username {
+  letter-spacing: 0.2em;
+  line-height: 100%;
+}
+.user {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  width: 466px;
+  border-radius: 5px;
+  height: 67px;
+  padding: 22px 78px 21px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+.frame-input,
+.frame-parent13 {
+  flex-direction: row;
+  align-items: center;
+}
+.frame-parent13 {
+  width: 685px;
+  height: 87px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frame-input {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  width: 467px;
+  border-radius: 5px;
+  height: 60px;
+  padding: 10px 80px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+.frame-input,
+.frame-parent12,
+.frame-parent14 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent14 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 28px;
+}
+.frame-parent12 {
+  width: 689px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.enter-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #000;
+}
+.entrar1 {
+  position: absolute;
+  top: 31.43%;
+  left: 31.08%;
+  font-weight: 600;
+}
+.back,
+.enter1 {
+  position: relative;
+}
+.enter1 {
+  width: 186px;
+  height: 49px;
+}
+.back {
+  font-weight: 600;
+  cursor: pointer;
+}
+.back-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #000;
+}
+.frame-parent11,
+.frame-parent15 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  font-family: Montserrat;
+}
+.frame-parent11 {
+  width: 679px;
+  gap: 64px;
+  text-align: center;
+  font-size: 20px;
+  color: #0d0d0d;
+  font-family: "Russo One";
+}
+.frame-parent10 {
+  border-radius: 10px;
+  background-color: #9090dc;
+  backdrop-filter: blur(4px);
+  flex-direction: column;
+  padding: 40px 80px;
+  gap: 118px;
+  font-size: 40px;
+  font-family: Montserrat;
+}
+.frame-parent10,
+.frame-parent7,
+.frame-parent8,
+.login-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent8 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 43px;
+  text-align: left;
+  font-size: 54px;
+  font-family: Outfit;
+}
+.frame-parent7,
+.login-page {
+  flex-direction: column;
+}
+.frame-parent7 {
+  align-self: stretch;
+  flex: 1;
+  gap: 89px;
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 1024px;
+  overflow: hidden;
+  padding: 53px 41px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1200px) {
+  .login-page {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .where-insight-meets {
+    font-size: 48px;
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+  }
+  .login-page {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .where-insight-meets {
+    font-size: 24px;
+  }
+  .frame-parent7 {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+}
